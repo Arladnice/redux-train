@@ -1,0 +1,16 @@
+.wrapper {
+	display: flex;
+	width: 600px;
+	margin: auto;
+}
+
+.button {
+	width: 100%;
+	border: 1px solid teal;
+	padding: 15px;
+	background-color: aliceblue;
+}
+
+.cash {
+	color: teal;
+}
