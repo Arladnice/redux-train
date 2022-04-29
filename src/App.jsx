@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import cn from "./App.module.css";
 
 function App() {
-  const cash = useSelector((state) => state.cash);
+  const cash = useSelector((state) => state.cash.cash);
   const dispatch = useDispatch();
 
   const addCash = (num) => {
